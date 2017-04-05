@@ -14,12 +14,14 @@ h1, h2 {
 
 h2 {
     font-family: 'Permanent Marker', cursive;
+    margin-top: 0px;
 }
 
 h1 {
     font-family: myFirstFont;
     font-size: 70px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
@@ -29,14 +31,20 @@ h1 {
     max-height: 350px;
 }
 
-.mainEnters {
-            animation: mainEnters 2s ease-in forwards,;
+.mainenter {
+            animation: mainEnters 3s ease-out forwards;
 
         }
+
         @keyframes mainEnters {
-            100%{left: 50%}
+            0% { margin-left: -300px;
+                opacity: 0;
+            }
+            100% { margin-left: 550px;
+                    opacity: 1;
+            }
 
-        }
+            }
 
 #flexcontainer {
     width: 100%;
@@ -55,9 +63,6 @@ h1 {
 	text-shadow:-3px 2px 16px myFirstFont;
 }
 
-#homepage {
-    display: none;
-}
 
 #btn_container {
     text-align: center;
@@ -115,12 +120,16 @@ h1 {
 
 
 
-#main {
+#homepage {
     display: ;
+}
+
+#main {
+    display:none;
 }
 #playername {
     display: none;
 }
 #steps-button {
-    display: none;
+    display: ;
 }
