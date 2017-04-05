@@ -1,0 +1,28 @@
+/*GENERAL*/
+body {
+    background-color: #FFCEA2;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: myFirstFont;
+}
+
+/*HOMEPAGE*/
+
+#maincharacter {
+    max-height: 350px;
+    display: inline-block;
+}
+
+/*ENTERNAME*/
+
+
+
+/*MAIN*/
+#main {
+    display: none;
+}
+#playername {
+    display: none;
+}
