@@ -3,18 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Munchkin editor</title>
+    <title>MunchkinCount</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Oswald|Permanent+Marker" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1>MUNCHKIN</h1>
-    <h2>POINT COUNTER</h2>
-    <img id="maincharacter" src="munchkincharacter.png">
-    <button id="steps-button">GET STARTED</button>
+        <h1>MUNCHKIN</h1>
+        <h2>POINT COUNTER</h2>
+    <div id="homepage">
+        <div id="flexcontainer">
+        <img id="maincharacter" src="munchkincharacter.png">
+        </div>
+
+    </div>
 
     <div id="playername">
+        <p id="instructions">Enter the name of the players and press 'Next'</p>
         <div id="label">
             <label for="player1name">Player1</label>
             <label for="player2name">Player2</label>
@@ -33,14 +39,18 @@
         </div>
     </div>
 
+    <div id="btn_container">
+        <button id="steps-button">GET STARTED</button>
+        </div>
+
     <div id="main">
         <div id="p-display">
-            <p id="displayname1"></p>
-            <p id="displayname2"></p>
-            <p id="displayname3"></p>
-            <p id="displayname4"></p>
-            <p id="displayname5"></p>
-            <p id="displayname6"></p>
+            <p id="displayname1">Dorian</p>
+            <p id="displayname2">Steve</p>
+            <p id="displayname3">Joans</p>
+            <p id="displayname4">Heric</p>
+            <p id="displayname5">Cantoa</p>
+            <p id="displayname6">Mamène</p>
         </div>
         <div id="playercharacter">
             <img src="munchkin%20characters%203.png">
